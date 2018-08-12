@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6726234F2115646700E869C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726234E2115646700E869C5 /* AppDelegate.swift */; };
-		672623512115646700E869C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672623502115646700E869C5 /* ViewController.swift */; };
 		672623542115646700E869C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672623522115646700E869C5 /* Main.storyboard */; };
 		672623562115646E00E869C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672623552115646E00E869C5 /* Assets.xcassets */; };
 		672623592115646E00E869C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672623572115646E00E869C5 /* LaunchScreen.storyboard */; };
 		672623642115646E00E869C5 /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672623632115646E00E869C5 /* NavigationTests.swift */; };
 		6726236F2115646E00E869C5 /* NavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726236E2115646E00E869C5 /* NavigationUITests.swift */; };
+		6726237D211564C800E869C5 /* AttractionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726237C211564C800E869C5 /* AttractionTableViewController.swift */; };
+		6726237F211565F800E869C5 /* AttratactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726237E211565F800E869C5 /* AttratactionTableViewCell.swift */; };
+		6726238521156A9200E869C5 /* eiffel_tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6726238021156A9100E869C5 /* eiffel_tower.jpg */; };
+		6726238621156A9200E869C5 /* empire_state_building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6726238121156A9100E869C5 /* empire_state_building.jpg */; };
+		6726238721156A9200E869C5 /* grand_canyon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6726238221156A9200E869C5 /* grand_canyon.jpg */; };
+		6726238821156A9200E869C5 /* windsor_castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6726238321156A9200E869C5 /* windsor_castle.jpg */; };
+		6726238921156A9200E869C5 /* buckingham_palace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6726238421156A9200E869C5 /* buckingham_palace.jpg */; };
+		6726238B2115741500E869C5 /* AttractionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726238A2115741500E869C5 /* AttractionDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		6726234B2115646700E869C5 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6726234E2115646700E869C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		672623502115646700E869C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		672623532115646700E869C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		672623552115646E00E869C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672623582115646E00E869C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		6726236A2115646E00E869C5 /* NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6726236E2115646E00E869C5 /* NavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUITests.swift; sourceTree = "<group>"; };
 		672623702115646E00E869C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6726237C211564C800E869C5 /* AttractionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionTableViewController.swift; sourceTree = "<group>"; };
+		6726237E211565F800E869C5 /* AttratactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttratactionTableViewCell.swift; sourceTree = "<group>"; };
+		6726238021156A9100E869C5 /* eiffel_tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffel_tower.jpg; sourceTree = "<group>"; };
+		6726238121156A9100E869C5 /* empire_state_building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empire_state_building.jpg; sourceTree = "<group>"; };
+		6726238221156A9200E869C5 /* grand_canyon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grand_canyon.jpg; sourceTree = "<group>"; };
+		6726238321156A9200E869C5 /* windsor_castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windsor_castle.jpg; sourceTree = "<group>"; };
+		6726238421156A9200E869C5 /* buckingham_palace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckingham_palace.jpg; sourceTree = "<group>"; };
+		6726238A2115741500E869C5 /* AttractionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		6726234D2115646700E869C5 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				6726238421156A9200E869C5 /* buckingham_palace.jpg */,
+				6726238021156A9100E869C5 /* eiffel_tower.jpg */,
+				6726238121156A9100E869C5 /* empire_state_building.jpg */,
+				6726238221156A9200E869C5 /* grand_canyon.jpg */,
+				6726238321156A9200E869C5 /* windsor_castle.jpg */,
 				6726234E2115646700E869C5 /* AppDelegate.swift */,
-				672623502115646700E869C5 /* ViewController.swift */,
 				672623522115646700E869C5 /* Main.storyboard */,
 				672623552115646E00E869C5 /* Assets.xcassets */,
 				672623572115646E00E869C5 /* LaunchScreen.storyboard */,
 				6726235A2115646E00E869C5 /* Info.plist */,
+				6726237C211564C800E869C5 /* AttractionTableViewController.swift */,
+				6726237E211565F800E869C5 /* AttratactionTableViewCell.swift */,
+				6726238A2115741500E869C5 /* AttractionDetailViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -231,7 +252,12 @@
 			files = (
 				672623592115646E00E869C5 /* LaunchScreen.storyboard in Resources */,
 				672623562115646E00E869C5 /* Assets.xcassets in Resources */,
+				6726238921156A9200E869C5 /* buckingham_palace.jpg in Resources */,
+				6726238621156A9200E869C5 /* empire_state_building.jpg in Resources */,
+				6726238521156A9200E869C5 /* eiffel_tower.jpg in Resources */,
+				6726238721156A9200E869C5 /* grand_canyon.jpg in Resources */,
 				672623542115646700E869C5 /* Main.storyboard in Resources */,
+				6726238821156A9200E869C5 /* windsor_castle.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672623512115646700E869C5 /* ViewController.swift in Sources */,
+				6726237D211564C800E869C5 /* AttractionTableViewController.swift in Sources */,
+				6726237F211565F800E869C5 /* AttratactionTableViewCell.swift in Sources */,
+				6726238B2115741500E869C5 /* AttractionDetailViewController.swift in Sources */,
 				6726234F2115646700E869C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
